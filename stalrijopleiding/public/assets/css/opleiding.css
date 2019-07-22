@@ -1,0 +1,145 @@
+p {
+    font-size: 18px;
+}
+
+
+.theorie {
+    background-image: url("../images/background.png");
+    color: #237d98;
+    height: 185vh;
+}
+
+.theorie h1 {
+    padding-top: 200px;
+    color: #237d98;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.theorie h2 {
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.theorie p {
+    padding-left: 170px;
+}
+
+.praktijk p{
+    color: #ffffff;
+    float: right;
+    margin-top: -700px;
+}
+
+.praktijk h2{
+    float: left;
+    color: #ffffff;
+    margin-top: -750px;
+    margin-left: 527px;
+}
+
+.praktijk {
+    margin-right: 50px;
+    margin-top: -250px;
+}
+
+footer{
+    margin-top: 500px;
+}
+
+.praktijktwee{
+    color: #ffffff;
+    margin-left: 170px;
+    margin-top: -700px;
+}
+
+.textmobile {
+    display: none;
+}
+
+.dauto {
+    margin-top: 200px;
+    float: right;
+    color: #237d98;
+    margin-right: 200px;
+}
+
+.autoimg {
+    display: none;
+}
+
+@media screen and (max-width: 1100px){ 
+    p {
+        margin-left: 50px;
+        font-size: 17px;
+        height: 100%;
+        margin-right: 50px;
+    }
+
+    .theorie {
+        background-image: none;
+        height: 100%;
+    }
+
+    .praktijk {
+        display: none;
+    }
+
+    .theorie h1{
+        margin-left: 50px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .theorie h2 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .theorie p  {
+        padding: 0;
+        margin-left: 50px;
+   }
+
+    .praktijktwee {
+        display: none;
+    }
+   
+    .textmobile {
+        display: unset;
+        font-size: 30px;
+        color: #237d98;
+        height: 100%;
+    }
+
+    .textmobile h2 {
+        margin-left: 50px;
+        font-size: 20px;
+        margin-top: 20px; 
+    }
+
+    .dauto h2{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .dauto {
+        float: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .autoimg {
+        display: unset;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
